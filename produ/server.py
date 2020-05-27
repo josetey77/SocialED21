@@ -68,7 +68,8 @@ def processSignup():
            '<title> Registro - SocialED </title>' \
            '</head>' \
            '<body> <div id ="container">' \
-           '<a href="/"> SocialED </a> | <a href="home"> Inicio </a> | <a href="login"> Acceso </a> | <a href="signup"> Registro </a>' \
+           '<link href="static/css/socialed-style.css" rel="stylesheet" type="text/css"/>' \
+           '<a href="/"> SocialEDm </a> | <a href="home"> Inicio </a> | <a href="login"> Acceso </a> | <a href="signup"> Registro </a>' \
            '<h1>Data from Form: Sign Up</h1>' \
            '<form><label>Nickame: ' + request.form['nickname'] + \
            '</label><br><label>email: ' + request.form['email'] + \
@@ -91,13 +92,16 @@ def processHome():
 
     return '<!DOCTYPE html> ' \
            '<html lang="es">' \
-           '<head>' \
+           '<head>'\
+           '<link href="static/css/socialed-style.css" rel="stylesheet" type="text/css"> '\
            '<title> Inicio - SocialED </title>' \
            '</head>' \
            '<body> <div id="container">' \
-           '<a href="/"> SocialED </a> | <a href="home"> Inicio </a> | <a href="login"> Acceso </a> | <a href="signup"> Registro </a>' \
+           '<a href="/"> SocialED </a> | <a href="home"> Inicio </a> | <a href="login"> Acceso </a> | <a href="signup"> Registro </a>'\
+           '<link href="static/css/socialed-style.css" rel="stylesheet" type="text/css"> '\
            '<h1>Hola internauta, qué tal estás?</h1>' \
-           '<form action="processHome" method="post" name="home"> ' \
+           '<form action="processHome" method="post" name="home"> '\
+           '<link href="static/css/socialed-style.css" rel="stylesheet" type="text/css"> '\
            '<label for="message">Escribe algo...</label><div class="inputs">' \
            '<input id="message" maxlength="128" name="message" size="80" type="text" required="true" value=""/>' \
            '<input id="last" type="hidden" name="last" required="true" value="' + request.form['last'] + '<br>' + \
