@@ -35,7 +35,7 @@ def processLogin():
         if value is None:
             missing.append(field)
     if missing:
-        return "Warning: Some fields are missing"
+        return process_missingFields(missing, "/login")
 
     return '<!DOCTYPE html> ' \
            '<html lang="es">' \
