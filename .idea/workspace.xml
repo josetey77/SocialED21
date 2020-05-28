@@ -16,19 +16,41 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfd51374-8847-424f-9e78-9d777f90f538" name="Default Changelist" comment="css" />
+    <list default="true" id="cfd51374-8847-424f-9e78-9d777f90f538" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/produ/python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produ/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/produ/server.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="css" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="josetey77" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="SocialED21" />
   </component>
   <component name="ProjectId" id="1cWxNILWYMW9PueGiS2izggLiMC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +62,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.server">
+    <configuration name="espia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SocialED" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/produ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/produ/espia.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialED" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +108,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.server" />
-        <item itemvalue="Python.server" />
+        <item itemvalue="Python.espia" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.server" />
         <item itemvalue="Python.server" />
@@ -97,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590569987099</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="espia">
+      <created>1590659146280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590659146280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,33 +155,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'html'&#10;&#10;# Conflicts:&#10;#&#9;.idea/SocialED.iml&#10;#&#9;.idea/misc.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'html'&#10;&#10;# Conflicts:&#10;#&#9;.idea/SocialED.iml&#10;#&#9;.idea/misc.xml" />
+    <MESSAGE value="espia" />
+    <option name="LAST_COMMIT_MESSAGE" value="espia" />
   </component>
   <component name="WindowStateProjectService">
     <state x="669" y="114" key="#server" timestamp="1590569720016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="114" key="#server/0.0.1920.1040@0.0.1920.1040" timestamp="1590569720016" />
-    <state x="587" y="35" key="CommitChangelistDialog2" timestamp="1590569985924">
+    <state x="587" y="35" key="CommitChangelistDialog2" timestamp="1590659145500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="35" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590569985924" />
-    <state width="949" height="277" key="GridCell.Tab.0.bottom" timestamp="1590599365882">
+    <state x="587" y="35" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590659145500" />
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1590659221566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590599365882" />
-    <state width="949" height="277" key="GridCell.Tab.0.center" timestamp="1590599365882">
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590659221566" />
+    <state x="749" y="386" key="Github.CreatePullRequestDialog" timestamp="1590659310743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590599365882" />
-    <state width="949" height="277" key="GridCell.Tab.0.left" timestamp="1590599365882">
+    <state x="749" y="386" key="Github.CreatePullRequestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590659310743" />
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1590659470183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590599365882" />
-    <state width="949" height="277" key="GridCell.Tab.0.right" timestamp="1590599365882">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590659470183" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1590659470183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590599365882" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590659470183" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1590659470183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590659470183" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1590659470183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590659470183" />
     <state width="949" height="342" key="GridCell.Tab.1.bottom" timestamp="1590569379904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,10 +219,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="299" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.1920.1040@0.0.1920.1040" timestamp="1590569662670" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590569817924">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590659349322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590569817924" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590659349322" />
+    <state x="570" y="208" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590659691693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="570" y="208" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590659691693" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590570032065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,5 +239,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="308" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590569400381" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590659548494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590659548494" />
   </component>
 </project>
