@@ -116,6 +116,14 @@ def processHome():
            '</body>' \
            '</html>'
 
+# este codigo controla los errores de campos faltantes
+def process_missingFields(campos, next_page):
+    """
+    :param campos: Lista de Campos que faltan
+    :param next_page: ruta al pulsar botón continuar
+    :return: plantilla generada
+    """
+    return render_template("missingFields.html", inputs=campos, next=next_page)
 
 # app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 # start the server with the 'run()' method
